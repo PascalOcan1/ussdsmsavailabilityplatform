@@ -1,0 +1,4 @@
+ServiceAlert listening on http://127.0.0.1:3000
+  short code: 22888   seeded: yes   updates: 10
+  dashboard:  http://127.0.0.1:3000/  (PIN 1234 unless ADMIN_PIN is set)
+  webhooks:   POST /gateway/sms  POST /gateway/ussd  POST /gateway/dlr

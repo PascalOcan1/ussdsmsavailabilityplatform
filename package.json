@@ -1,0 +1,16 @@
+{
+  "name": "service-availability-platform",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline-first service availability platform using USSD and SMS for rural communities",
+  "engines": {
+    "node": ">=23.6"
+  },
+  "scripts": {
+    "start": "node src/index.ts",
+    "dev": "node --watch src/index.ts",
+    "reset": "node src/reset.ts",
+    "test": "node --test \"tests/**/*.test.ts\""
+  }
+}
